@@ -12,8 +12,12 @@
 		5534C9C71D89A94100ED7C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5534C9C51D89A94100ED7C20 /* Main.storyboard */; };
 		5534C9C91D89A94100ED7C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5534C9C81D89A94100ED7C20 /* Assets.xcassets */; };
 		5534C9CC1D89A94100ED7C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5534C9CA1D89A94100ED7C20 /* LaunchScreen.storyboard */; };
-		5534C9DA1D89E3C100ED7C20 /* AndroidStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534C9D91D89E3C100ED7C20 /* AndroidStyleKit.swift */; };
-		5534C9DC1D89E4B200ED7C20 /* AndroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5534C9DB1D89E4B200ED7C20 /* AndroidView.swift */; };
+		55AAE47C1D8BE88C00B3B0FB /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AAE47B1D8BE88C00B3B0FB /* AnimationViewController.swift */; };
+		55AAE47E1D8BEB6900B3B0FB /* WindowsStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AAE47D1D8BEB6900B3B0FB /* WindowsStyleKit.swift */; };
+		55AAE4801D8BECEC00B3B0FB /* ChromeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AAE47F1D8BECEC00B3B0FB /* ChromeView.swift */; };
+		55AAE4821D8BECF800B3B0FB /* OldWindowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AAE4811D8BECF800B3B0FB /* OldWindowsView.swift */; };
+		55AAE4841D8BED0700B3B0FB /* NewWindowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AAE4831D8BED0700B3B0FB /* NewWindowsView.swift */; };
+		55F4181D1D8B67CF00F89EDF /* WindowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F4181C1D8B67CF00F89EDF /* WindowsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +28,12 @@
 		5534C9C81D89A94100ED7C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5534C9CB1D89A94100ED7C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5534C9CD1D89A94100ED7C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5534C9D91D89E3C100ED7C20 /* AndroidStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndroidStyleKit.swift; sourceTree = "<group>"; };
-		5534C9DB1D89E4B200ED7C20 /* AndroidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndroidView.swift; sourceTree = "<group>"; };
+		55AAE47B1D8BE88C00B3B0FB /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		55AAE47D1D8BEB6900B3B0FB /* WindowsStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowsStyleKit.swift; sourceTree = "<group>"; };
+		55AAE47F1D8BECEC00B3B0FB /* ChromeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromeView.swift; sourceTree = "<group>"; };
+		55AAE4811D8BECF800B3B0FB /* OldWindowsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OldWindowsView.swift; sourceTree = "<group>"; };
+		55AAE4831D8BED0700B3B0FB /* NewWindowsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWindowsView.swift; sourceTree = "<group>"; };
+		55F4181C1D8B67CF00F89EDF /* WindowsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +66,18 @@
 		5534C9C01D89A94100ED7C20 /* svgSample */ = {
 			isa = PBXGroup;
 			children = (
-				5534C9D91D89E3C100ED7C20 /* AndroidStyleKit.swift */,
+				55AAE47D1D8BEB6900B3B0FB /* WindowsStyleKit.swift */,
 				5534C9C11D89A94100ED7C20 /* AppDelegate.swift */,
 				5534C9C31D89A94100ED7C20 /* ViewController.swift */,
 				5534C9C51D89A94100ED7C20 /* Main.storyboard */,
 				5534C9C81D89A94100ED7C20 /* Assets.xcassets */,
 				5534C9CA1D89A94100ED7C20 /* LaunchScreen.storyboard */,
 				5534C9CD1D89A94100ED7C20 /* Info.plist */,
-				5534C9DB1D89E4B200ED7C20 /* AndroidView.swift */,
+				55F4181C1D8B67CF00F89EDF /* WindowsView.swift */,
+				55AAE47B1D8BE88C00B3B0FB /* AnimationViewController.swift */,
+				55AAE47F1D8BECEC00B3B0FB /* ChromeView.swift */,
+				55AAE4811D8BECF800B3B0FB /* OldWindowsView.swift */,
+				55AAE4831D8BED0700B3B0FB /* NewWindowsView.swift */,
 			);
 			path = svgSample;
 			sourceTree = "<group>";
@@ -143,10 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5534C9DC1D89E4B200ED7C20 /* AndroidView.swift in Sources */,
+				55AAE47E1D8BEB6900B3B0FB /* WindowsStyleKit.swift in Sources */,
+				55F4181D1D8B67CF00F89EDF /* WindowsView.swift in Sources */,
+				55AAE47C1D8BE88C00B3B0FB /* AnimationViewController.swift in Sources */,
 				5534C9C41D89A94100ED7C20 /* ViewController.swift in Sources */,
+				55AAE4821D8BECF800B3B0FB /* OldWindowsView.swift in Sources */,
+				55AAE4801D8BECEC00B3B0FB /* ChromeView.swift in Sources */,
 				5534C9C21D89A94100ED7C20 /* AppDelegate.swift in Sources */,
-				5534C9DA1D89E3C100ED7C20 /* AndroidStyleKit.swift in Sources */,
+				55AAE4841D8BED0700B3B0FB /* NewWindowsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +324,7 @@
 				5534C9D21D89A94100ED7C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,11 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var image: UIImageView!
-    
+    @IBOutlet weak var windowsView: WindowsView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        image.image = AndroidStyleKit.imageOfAndroid
+        image.image = WindowsStyleKit.imageOfWindows
         
     }
 
